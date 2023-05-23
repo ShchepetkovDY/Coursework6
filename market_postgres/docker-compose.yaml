@@ -11,7 +11,7 @@ services:
       POSTGRES_DB: skymarket
     restart: always
     ports:
-    - "5432:5432"
+    - "5435:5432"
 
   frontend:
     build: ../frontend_react/.
